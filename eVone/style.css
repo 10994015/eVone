@@ -131,7 +131,7 @@ header .sticky a:before{
 header .navigation a:hover:before{
 	height: 10px;
 	width: 100%;
-	border-bottom: 1px solid #fff;
+	border-bottom: 2px solid #fff;
 	border-right: none;
 	border-left: none;
 	border-top: none;
@@ -141,7 +141,7 @@ header .navigation a:hover:before{
 header.sticky a:hover:before{
 	height: 10px;
 	width: 100%;
-	border-bottom: 1px solid #fff;
+	border-bottom: 2px solid #fff;
 	border-right: none;
 	border-left: none;
 	border-top: none;
