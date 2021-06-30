@@ -22,7 +22,7 @@ section{
 	min-height: 100vh;
 	display: flex;
 	align-items: center;
-	background:url(img/bg.jpg)no-repeat;
+	background:url(img/bg.png)no-repeat;
 	background-size: cover;
 	background-position: center;
 	background-attachment: fixed;
@@ -270,7 +270,7 @@ body{
 }
 
 .work{
-	background:url(img/bg2.jpg)no-repeat;
+	background:url(img/bg2.png)no-repeat;
 	background-size: cover;
 	background-position: center;
 	background-attachment: fixed;
@@ -486,13 +486,14 @@ body{
 	text-transform: uppercase;
 	letter-spacing: 2px;
 	width: 100%;
-	border: 2px #CB9C57 solid;
+	border: 2px transparent solid;
 	cursor: pointer; 
 	transition: .5s ease;
 }
 .contact-form .input-box .send-btn:hover{
 	background: transparent;
 	color: #CB9C57;
+	border: 2px #CB9C57 solid;
 }
 .contact .row iframe{
 	position: relative;
